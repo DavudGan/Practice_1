@@ -62,7 +62,7 @@ body{
 .info{
     padding-top: 40px;
     display: flex;
-    gap: 297px;
+    gap: 240px;
     text-align: center;
 }
 
@@ -70,7 +70,7 @@ body{
     font-size: 47px;
     line-height: 59px;
     font-family: 'Gilroy-Bold';
-    text-align: center;
+    text-align: left;
 }
 
 .men__skil{
@@ -85,10 +85,12 @@ body{
 }
 
 .RU__ENG{
-    transform: rotate(-90deg);
+    transform: rotate(45deg);
     font-family: 'Gilroy-Bold';
+    display: flex;
 }
 
 .img_man{
     padding-top: 31px;
+    padding-bottom: 104px;
 }
