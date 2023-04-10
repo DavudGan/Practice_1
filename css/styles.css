@@ -30,7 +30,7 @@ a{
 
 
 .container{
-    background-color: #ccc;
+    /* background-color: #ccc; */
     max-width: 964px;
     margin: 0 auto;
     padding: 0 10px;
