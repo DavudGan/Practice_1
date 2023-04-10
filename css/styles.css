@@ -106,7 +106,7 @@ body{
     min-height: 100%;
 }
 
-.skills{
+.about_me{
     display: flex;
     padding-top: 181px;
     padding-bottom: 107px;
@@ -115,11 +115,42 @@ body{
     align-content: space-around;
 }
 
-.p__skills{
+.p__about_me{
     text-align: center;
     padding-bottom: 20px;
 }
 
-.h1_skills{
+.h1_about_me{
     padding-bottom: 18px;
+}
+
+.container_skills{
+    padding-top: 91px;
+    padding-bottom: 110px;
+}
+
+.skills{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.p__skills{
+    padding-top: 70px;
+}
+
+.programs_skill{
+    padding-top: 82px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.programs_skill_{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.p_programs{
+    text-align: center;
 }
