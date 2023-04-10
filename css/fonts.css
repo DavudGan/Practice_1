@@ -6,8 +6,6 @@
 		url('../fonts/Gilroy-Medium/gilroy-medium.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
 		url('../fonts/Gilroy-Medium/gilroy-medium.ttf') format('truetype'), /* Safari, Android, iOS */
 		url('../fonts/Gilroy-Medium/gilroy-medium.svg#gilroy-medium') format('svg'); /* Chrome < 4, Legacy iOS */
-        font-weight: normal;
-        font-style: normal;
 }
 
 @font-face {
@@ -18,6 +16,4 @@
 		url('../fonts/Gilroy-Bold/gilroy-bold.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
 		url('../fonts/Gilroy-Bold/gilroy-bold.ttf') format('truetype'), /* Safari, Android, iOS */
 		url('../fonts/Gilroy-Bold/gilroy-bold.svg#gilroy-bold') format('svg'); /* Chrome < 4, Legacy iOS */
-        font-weight: normal;
-        font-style: normal;
 }

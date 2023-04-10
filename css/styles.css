@@ -51,10 +51,44 @@ body{
 .menu__list{
     display: flex;
     gap: 156px;
-    font-family: 'Gilroy-Medium';
+    font-family: 'Gilroy-Bold';;
 }
 
 .menu__list-link{
     color: #070707;
-    
+}
+
+
+.info{
+    padding-top: 40px;
+    display: flex;
+    gap: 297px;
+    text-align: center;
+}
+
+.FIO{
+    font-size: 47px;
+    line-height: 59px;
+    font-family: 'Gilroy-Bold';
+    text-align: center;
+}
+
+.men__skil{
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.div__min__skil {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+
+.RU__ENG{
+    transform: rotate(-90deg);
+    font-family: 'Gilroy-Bold';
+}
+
+.img_man{
+    padding-top: 31px;
 }
