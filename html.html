@@ -5,48 +5,48 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="css.css">
+    <link rel="stylesheet" href="./css/css.css">
+    <link rel="stylesheet" href="./css/fonts.css">
 </head>
 <body>
-    <header>
-        <div class="menu">
-            <nav>
-                <ul>
-                    <li>Home</li>
-                    <li>About me</li>
-                    <li>Skills</li>
-                    <li>Portfolio</li>
-                    <li>Contacts</li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-    <div class="container_1">
-        <ul>
-            <li>Denis Novik</li>
-            <li>UX | UI designer 24 years old, Minsk</li>
-            <li>RU | ENG</li>
-        </ul>
-        <img src="./img/Group 2.1.jpg" alt="">
-    </div>
-    <div>
-        <ul>
-            <li>About me</li>
-            <li>Hi, I'm Denis – UX/UI designer from Minsk. I'm interested in design and everything connected with it. I'm studying at courses "Web and mobile design interfaces" in IT-Academy. Ready to implement excellent projects with wonderful people.</li>
-        </ul>
-    </div>
-    <div>
-        <ul>
-            <li>Skills</li>
-            <li>I work in such programs as</li>
-        </ul>
-    </div>
-    <div>
-        <div>
-            <img src="./img/Ps.jpg" alt="">
-            <h1>Adobe Photoshop</h1>
-            <img src="./img/Star.jpg" alt="">
-        </div>
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <div class="header__inner">
+                    <nav class="menu">
+                        <ul class="menu__list">
+                            <li class="menu__list-item">
+                                <a href="#" class="menu__list-link">Home</a>
+                            </li>
+                            <li class="menu__list-item">
+                                <a href="#" class="menu__list-link">About me</a>
+                            </li>
+                            <li class="menu__list-item">
+                                <a href="#" class="menu__list-link">Skills</a>
+                            </li>
+                            <li class="menu__list-item">
+                                <a href="#" class="menu__list-link">Portfolio</a>
+                            </li>
+                            <li class="menu__list-item">
+                                <a href="#" class="menu__list-link">Contacts</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <hr class="header__inner-line", style="margin-top: 32px; border: 1px solid #828282">
+            </div>
+        </header>
+        <main class="main">
+            <div class="container">
+                <div class="info">
+                    <h1 class="FIO">Denis Novik</h1>
+                    <h2 class="min__skil">UX | UI designer 24 years old, Minsk</h2>
+                    <h2 class="RU__ENG">RU | ENG</h2>
+                    <img src="./img/men.jpg" alt="" class="img__men" width="945" height="387">
+                </div>
+            </div>
+        </main>
+        <footer class="footer"></footer>
     </div>
 </body>
 </html>
