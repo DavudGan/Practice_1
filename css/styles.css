@@ -30,7 +30,7 @@ a{
 
 
 .container{
-    background-color: #ccc;
+    /* background-color: #ccc; */
     max-width: 964px;
     margin: 0 auto;
     padding: 0 10px;
@@ -107,8 +107,14 @@ body{
     flex-direction: column;
     flex-wrap: wrap;
     align-content: space-around;
+    background: #F6F6F6;
 }
 
 .p__skills{
     text-align: center;
+    padding-bottom: 20px;
+}
+
+.h1_skills{
+    padding-bottom: 18px;
 }
