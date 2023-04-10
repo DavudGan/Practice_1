@@ -30,7 +30,7 @@ a{
 
 
 .container{
-    /* background-color: #ccc; */
+    background-color: #ccc;
     max-width: 964px;
     margin: 0 auto;
     padding: 0 10px;
@@ -56,13 +56,18 @@ body{
 
 .menu__list-link{
     color: #070707;
+    opacity: 0.6;
 }
+
+  .menu__list-link:hover {
+    opacity: 1;
+  }
 
 
 .info{
     padding-top: 40px;
     display: flex;
-    gap: 240px;
+    gap: 211px;
     text-align: center;
 }
 
@@ -93,4 +98,17 @@ body{
 .img_man{
     padding-top: 31px;
     padding-bottom: 104px;
+}
+
+.skills{
+    display: flex;
+    padding-top: 181px;
+    padding-bottom: 107px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+
+.p__skills{
+    text-align: center;
 }
