@@ -59,9 +59,9 @@ body{
     opacity: 0.6;
 }
 
-  .menu__list-link:hover {
+.menu__list-link:hover {
     opacity: 1;
-  }
+}
 
 
 .info{
@@ -98,6 +98,9 @@ body{
 .img_man{
     padding-top: 31px;
     padding-bottom: 104px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .container_about_me{
