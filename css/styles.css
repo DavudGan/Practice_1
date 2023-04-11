@@ -153,5 +153,7 @@ body{
 }
 
 .p_programs{
+    padding-top: 24px;
+    padding-bottom: 40px;
     text-align: center;
 }
