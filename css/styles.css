@@ -141,6 +141,7 @@ body{
 
 .programs_skill{
     padding-top: 82px;
+    padding-bottom: 110px;
     display: flex;
     justify-content: space-around;
 }
