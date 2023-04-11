@@ -157,3 +157,30 @@ body{
     padding-bottom: 40px;
     text-align: center;
 }
+
+.footer__info{
+    background: #F6F6F6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.h_contacts{
+    padding-top: 114px;
+}
+
+.contacts_icon{
+    padding-top: 80px;
+    padding-bottom: 123px;
+}
+
+.a_contacts{
+    padding-right: 40px;
+}
+
+.contacts_img_icon{
+    height: 40px;
+    width: 40px;
+}
