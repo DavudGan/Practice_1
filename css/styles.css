@@ -30,7 +30,6 @@ a{
 
 
 .container{
-    /* background-color: #ccc; */
     max-width: 964px;
     margin: 0 auto;
     padding: 0 10px;
@@ -64,38 +63,46 @@ body{
 }
 
 
-.info{
+.my_info{
     padding-top: 40px;
     display: flex;
     gap: 211px;
     text-align: center;
 }
 
-.FIO{
+.full_name_container{
     font-size: 47px;
     line-height: 59px;
     font-family: 'Gilroy-Bold';
     text-align: left;
 }
 
-.men__skil{
+.my_development_skill_container{
     font-size: 18px;
     line-height: 22px;
 }
 
-.div__min__skil {
+.my_development_skill {
     display: flex;
     flex-wrap: wrap;
     align-content: space-around;
 }
+.language-change-button_container{
+    transform: rotate(90deg);
+    text-align: right;
+}
 
-.RU__ENG{
-    transform: rotate(45deg);
+.language-change-button{
+    border: none;
+    color: inherit;
+    background-color: transparent;
+    height: 19px;
+    width: 60px;
     font-family: 'Gilroy-Bold';
     display: flex;
 }
 
-.img_man{
+.my_photo_container{
     padding-top: 31px;
     padding-bottom: 104px;
     display: flex;
@@ -103,7 +110,7 @@ body{
     align-items: center;
 }
 
-.container_about_me{
+.about_me_container{
     background: #F6F6F6;
     min-width: 100%; 
     min-height: 100%;
@@ -118,50 +125,46 @@ body{
     align-content: space-around;
 }
 
-.p__about_me{
+.about_me_text_box{
     text-align: center;
     padding-bottom: 20px;
 }
 
-.h1_about_me{
+.about_me_text_box_2{
     padding-bottom: 18px;
 }
 
-.container_skills{
+.skills_container{
     padding-top: 91px;
     padding-bottom: 110px;
 }
 
-.skills{
+.my_skills{
     display: flex;
     align-items: center;
     flex-direction: column;
 }
 
-.p__skills{
-    padding-top: 70px;
-}
-
-.programs_skill{
+.programming_skills_container{
     padding-top: 82px;
     padding-bottom: 110px;
     display: flex;
     justify-content: space-around;
 }
 
-.programs_skill_{
+.programming_skills_card{
     display: flex;
     align-items: center;
     flex-direction: column;
 }
 
-.p_programs{
+.programming_skills_name{
     padding-top: 24px;
     padding-bottom: 40px;
     text-align: center;
 }
 
-.footer__info{
+.footer_info_container{
     background: #F6F6F6;
     display: flex;
     flex-direction: column;
@@ -170,20 +173,20 @@ body{
     min-height: 100%;
 }
 
-.h_contacts{
+.contacts_text_box{
     padding-top: 114px;
 }
 
-.contacts_icon{
+.contacts_card_box{
     padding-top: 80px;
     padding-bottom: 123px;
 }
 
-.a_contacts{
+.my_contacts_box{
     padding-right: 40px;
 }
 
-.contacts_img_icon{
+.contacts_icon_box{
     height: 40px;
     width: 40px;
 }
