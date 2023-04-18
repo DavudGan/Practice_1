@@ -19,19 +19,39 @@
                     <nav class="menu">
                         <ul class="menu-list">
                             <li class="menu-list-item">
-                                <a href="#" class="menu-list-link menu-home" data-localize="true">Home</a>
+                                <a href="#" class="menu-list-link">
+                                    <span id="menu-home" data-localize="true" >
+                                        Home
+                                    </span>
+                                </a>
                             </li>
                             <li class="menu-list-item">
-                                <a href="#" class="menu-list-link menu-about-me" data-localize="true">About me</a>
+                                <a href="#" id="menu-about-me" class="menu-list-link" data-localize="true">
+                                    <span id="menu-about-me" data-localize="true" >
+                                        About me
+                                    </span>
+                                </a>
                             </li>
                             <li class="menu-list-item">
-                                <a href="#" class="menu-list-link menu-skills" data-localize="true">Skills</a>
+                                <a href="#" id="menu-skills" class="menu-list-link" data-localize="true">
+                                    <span id="menu-skills" data-localize="true" >
+                                        Skills
+                                    </span>
+                                </a>
                             </li>
                             <li class="menu-list-item">
-                                <a href="#" class="menu-list-link menu-portfolio" data-localize="true">Portfolio</a>
+                                <a href="#" id="menu-portfolio" class="menu-list-link" data-localize="true">
+                                    <span id="menu-portfolio" data-localize="true">
+                                        Portfolio
+                                    </span>
+                                </a>
                             </li>
                             <li class="menu-list-item">
-                                <a href="#" class="menu-list-link menu-contacts" data-localize="true">Contacts</a>
+                                <a href="#" id="menu-contacts" class="menu-list-link" data-localize="true">
+                                    <span id="menu-contacts" data-localize="true">
+                                        Contacts
+                                    </span>
+                                </a>
                             </li>
                         </ul>
                     </nav>
@@ -43,9 +63,23 @@
             <div class="container">
                 <div class="my-info-container">
                     <div class="my-info">
-                        <p class="full-name-container">Davud <br> Ganbarov</p>
+                        <p  class="full-name-container">
+                            <span id="first_name" data-localize="true">
+                                Davud
+                            </span> <br> 
+                            <span id="second_name" data-localize="true">
+                                Ganbarov
+                            </span> 
+                        </p>
                         <div class="my-development-skill">
-                            <p class="my-development-skill-container">Frontend-developer <br> 22 years old, Ekaterinburg</p>
+                            <p class="my-development-skill-container">
+                                <span id="specialization" data-localize="true" >
+                                    Frontend-developer
+                                </span> <br> 
+                                <span id="years" data-localize="true">
+                                    22 years old, Ekaterinburg
+                                </span>
+                            </p>
                         </div>
                         <div class="language-change-button-container" style="text-align: right;">
                             <button class="language-change-button">RU | ENG</button>
@@ -58,30 +92,68 @@
             </div>
             <div class="container about-me-container">
                 <div class="about-me">
-                    <h1 class="about-me-text-box about-me-text-box-2">About me</h1>
-                    <p class="about-me-text-box">Hi, I'm Davud – Frontend-developer from Ekaterinburg.<br>I am interested in creating websites and everything connected with it.</p>
-                    <p class="about-me-text-box">I study development on the basis of forums, video courses and a mentor.</p>
-                    <p class="about-me-text-box">Ready to implement excellent projects<br>with wonderful people.</p>
+                    <h1 class="about-me-text-box about-me-text-box-2">
+                        <span id="about-me" data-localize="true">
+                            About me
+                        </span>
+                    </h1>
+                    <p class="about-me-text-box">
+                        <span id="from" data-localize="true">
+                            Hi, I'm Davud – Frontend-developer from Ekaterinburg.
+                        </span> <br>
+                        <span id="interested" data-localize="true">
+                            I am interested in creating websites and everything connected with it.
+                        </span>
+                    </p>
+                    <p class="about-me-text-box">
+                        <span id="study" data-localize="true">
+                            I study development on the basis of forums, video courses and a mentor.
+                        </span> 
+                    </p>
+                    <p class="about-me-text-box">
+                        <span  id="implement"data-localize="true">
+                            Ready to implement excellent projects
+                        </span> <br>
+                        <span id="wonderful"data-localize="true">
+                            with wonderful people.
+                        </span> 
+                    </p>
                 </div>
             </div>
             <div class="container skills-container">
                 <div class="my-skills">
-                    <h1>Skill</h1>
+                    <h1>
+                        <span id="skill" data-localize="true">
+                            Skills
+                        </span>
+                    </h1>
                 </div>
                 <div class="programming-skills-container">
                     <div class="programming-skills-card">
                         <img src="./img/js.png" width="89" height="88" alt="" class="programs">
-                        <p class="programming-skills-name">JavaScript</p>
+                        <p class="programming-skills-name">
+                            <span id="JS" data-localize="fals">
+                                JavaScript
+                            </span>
+                        </p>
                         <img src="./img/Star.jpg" width="166" height="26" alt="" class="star">
                     </div>
                     <div class="programming-skills-card">
                         <img src="./img/html.png" width="89" height="88" alt="" class="programs">
-                        <p class="programming-skills-name">HTML</p>
+                        <p class="programming-skills-name">
+                            <span id="html" data-localize="fals">
+                                HTML
+                            </span>
+                        </p>
                         <img src="./img/Star.jpg" width="166" height="26" alt="" class="star">
                     </div>
                     <div class="programming-skills-card">
                         <img src="./img/css.png" width="89" height="88" alt="" class="programs">
-                        <p class="programming-skills-name">CSS</p>
+                        <p class="programming-skills-name">
+                            <span id="css" data-localize="fals">
+                                CSS
+                            </span>
+                        </p>
                         <img src="./img/Star.jpg" width="166" height="26" alt="" class="star">
                     </div>
                 </div>
@@ -90,7 +162,11 @@
         <footer class="footer">
             <div class="container footer-info-container">
                 <div class="footer-info-container">
-                    <h1 class="contacts-text-box">Contacts</h1>
+                    <h1 class="contacts-text-box">
+                        <span id="contacts" data-localize="true">
+                            Contacts
+                        </span>
+                    </h1>
                     <div class="contacts-card-box">
                         <a href="" class="my-contacts-box">
                             <img src="./img/at-sign.png" alt="" class="contacts-icon-box">
