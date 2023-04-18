@@ -4,99 +4,102 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Summary</title>
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="./css/fonts.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script src="lang.js"></script>
+    <script src="js.js"></script>
 </head>
 <body>
     <div class="wrapper">
         <header class="header">
             <div class="container">
-                <div class="header__inner">
+                <div class="header-inner">
                     <nav class="menu">
-                        <ul class="menu__list">
-                            <li class="menu__list-item">
-                                <a href="#" class="menu__list-link">Home</a>
+                        <ul class="menu-list">
+                            <li class="menu-list-item">
+                                <a href="#" class="menu-list-link menu-home" data-localize="true">Home</a>
                             </li>
-                            <li class="menu__list-item">
-                                <a href="#" class="menu__list-link">About me</a>
+                            <li class="menu-list-item">
+                                <a href="#" class="menu-list-link menu-about-me" data-localize="true">About me</a>
                             </li>
-                            <li class="menu__list-item">
-                                <a href="#" class="menu__list-link">Skills</a>
+                            <li class="menu-list-item">
+                                <a href="#" class="menu-list-link menu-skills" data-localize="true">Skills</a>
                             </li>
-                            <li class="menu__list-item">
-                                <a href="#" class="menu__list-link">Portfolio</a>
+                            <li class="menu-list-item">
+                                <a href="#" class="menu-list-link menu-portfolio" data-localize="true">Portfolio</a>
                             </li>
-                            <li class="menu__list-item">
-                                <a href="#" class="menu__list-link">Contacts</a>
+                            <li class="menu-list-item">
+                                <a href="#" class="menu-list-link menu-contacts" data-localize="true">Contacts</a>
                             </li>
                         </ul>
                     </nav>
                 </div>
-                <hr class="header__inner-line", style="margin-top: 32px; border: 1px solid #828282">
+                <hr class="header-inner-line", style="margin-top: 32px; border: 1px solid #828282">
             </div>
         </header>
         <main class="main">
             <div class="container">
-                <div class="my_info_container">
-                    <div class="my_info">
-                        <p class="full_name_container">Davud <br> Ganbarov</p>
-                        <div class="my_development_skill">
-                            <p class="my_development_skill_container">Frontend-developer <br> 22 years old, Ekaterinburg</p>
+                <div class="my-info-container">
+                    <div class="my-info">
+                        <p class="full-name-container">Davud <br> Ganbarov</p>
+                        <div class="my-development-skill">
+                            <p class="my-development-skill-container">Frontend-developer <br> 22 years old, Ekaterinburg</p>
                         </div>
-                        <div class="language-change-button_container" style="text-align: right;">
+                        <div class="language-change-button-container" style="text-align: right;">
                             <button class="language-change-button">RU | ENG</button>
                         </div>
                     </div>
-                    <div class="my_photo_container">
-                        <img src="./img/Davud.jpg" alt="" class="img__man" width="400" height="500">
+                    <div class="my-photo-container">
+                        <img src="./img/Davud.jpg" alt="" class="img--man" width="400" height="500">
                     </div>
                 </div>
             </div>
-            <div class="container about_me_container">
-                <div class="about_me">
-                    <h1 class="about_me_text_box about_me_text_box_2">About me</h1>
-                    <p class="about_me_text_box">Hi, I'm Davud – Frontend-developer from Ekaterinburg.<br>I am interested in creating websites and everything connected with it.</p>
-                    <p class="about_me_text_box">I study development on the basis of forums, video courses and a mentor.</p>
-                    <p class="about_me_text_box">Ready to implement excellent projects<br>with wonderful people.</p>
+            <div class="container about-me-container">
+                <div class="about-me">
+                    <h1 class="about-me-text-box about-me-text-box-2">About me</h1>
+                    <p class="about-me-text-box">Hi, I'm Davud – Frontend-developer from Ekaterinburg.<br>I am interested in creating websites and everything connected with it.</p>
+                    <p class="about-me-text-box">I study development on the basis of forums, video courses and a mentor.</p>
+                    <p class="about-me-text-box">Ready to implement excellent projects<br>with wonderful people.</p>
                 </div>
             </div>
-            <div class="container skills_container">
-                <div class="my_skills">
+            <div class="container skills-container">
+                <div class="my-skills">
                     <h1>Skill</h1>
                 </div>
-                <div class="programming_skills_container">
-                    <div class="programming_skills_card">
+                <div class="programming-skills-container">
+                    <div class="programming-skills-card">
                         <img src="./img/js.png" width="89" height="88" alt="" class="programs">
-                        <p class="programming_skills_name">JavaScript</p>
+                        <p class="programming-skills-name">JavaScript</p>
                         <img src="./img/Star.jpg" width="166" height="26" alt="" class="star">
                     </div>
-                    <div class="programming_skills_card">
+                    <div class="programming-skills-card">
                         <img src="./img/html.png" width="89" height="88" alt="" class="programs">
-                        <p class="programming_skills_name">HTML</p>
+                        <p class="programming-skills-name">HTML</p>
                         <img src="./img/Star.jpg" width="166" height="26" alt="" class="star">
                     </div>
-                    <div class="programming_skills_card">
+                    <div class="programming-skills-card">
                         <img src="./img/css.png" width="89" height="88" alt="" class="programs">
-                        <p class="programming_skills_name">CSS</p>
+                        <p class="programming-skills-name">CSS</p>
                         <img src="./img/Star.jpg" width="166" height="26" alt="" class="star">
                     </div>
                 </div>
             </div>
         </main>
         <footer class="footer">
-            <div class="container footer_info_container">
-                <div class="footer_info_container">
-                    <h1 class="contacts_text_box">Contacts</h1>
-                    <div class="contacts_card_box">
-                        <a href="" class="my_contacts_box">
-                            <img src="./img/at-sign.png" alt="" class="contacts_icon_box">
+            <div class="container footer-info-container">
+                <div class="footer-info-container">
+                    <h1 class="contacts-text-box">Contacts</h1>
+                    <div class="contacts-card-box">
+                        <a href="" class="my-contacts-box">
+                            <img src="./img/at-sign.png" alt="" class="contacts-icon-box">
                         </a>
-                        <a href="https://t.me/kubiksa" class="my_contacts_box">
-                            <img src="./img/telegram.png" alt="" class="contacts_icon_box">
+                        <a href="https://t.me/kubiksa" class="my-contacts-box">
+                            <img src="./img/telegram.png" alt="" class="contacts-icon-box">
                         </a>
-                        <a href="https://vk.com/fadihard" class="my_contacts_box">
-                            <img src="./img/vk.png" alt="" class="contacts_icon_box">
+                        <a href="https://vk.com/fadihard" class="my-contacts-box">
+                            <img src="./img/vk.png" alt="" class="contacts-icon-box">
                         </a>
                     </div>
                 </div>

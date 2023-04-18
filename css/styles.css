@@ -41,53 +41,53 @@ body{
     font-family: 'Gilroy-Medium';
 }
 
-.header__inner{
+.header-inner{
     padding-top: 33px;
     display: flex;
     justify-content: space-around
 }
 
-.menu__list{
+.menu-list{
     display: flex;
     gap: 156px;
     font-family: 'Gilroy-Bold';;
 }
 
-.menu__list-link{
+.menu-list-link{
     color: #070707;
     opacity: 0.6;
 }
 
-.menu__list-link:hover {
+.menu-list-link:hover {
     opacity: 1;
 }
 
 
-.my_info{
+.my-info{
     padding-top: 40px;
     display: flex;
     gap: 211px;
     text-align: center;
 }
 
-.full_name_container{
+.full-name-container{
     font-size: 47px;
     line-height: 59px;
     font-family: 'Gilroy-Bold';
     text-align: left;
 }
 
-.my_development_skill_container{
+.my-development-skill-container{
     font-size: 18px;
     line-height: 22px;
 }
 
-.my_development_skill {
+.my-development-skill {
     display: flex;
     flex-wrap: wrap;
     align-content: space-around;
 }
-.language-change-button_container{
+.language-change-button-container{
     transform: rotate(90deg);
     text-align: right;
 }
@@ -102,7 +102,7 @@ body{
     display: flex;
 }
 
-.my_photo_container{
+.my-photo-container{
     padding-top: 31px;
     padding-bottom: 104px;
     display: flex;
@@ -110,13 +110,13 @@ body{
     align-items: center;
 }
 
-.about_me_container{
+.about-me-container{
     background: #F6F6F6;
     min-width: 100%; 
     min-height: 100%;
 }
 
-.about_me{
+.about-me{
     display: flex;
     padding-top: 181px;
     padding-bottom: 107px;
@@ -125,46 +125,46 @@ body{
     align-content: space-around;
 }
 
-.about_me_text_box{
+.about-me-text-box{
     text-align: center;
     padding-bottom: 20px;
 }
 
-.about_me_text_box_2{
+.about-me-text-box-2{
     padding-bottom: 18px;
 }
 
-.skills_container{
+.skills-container{
     padding-top: 91px;
     padding-bottom: 110px;
 }
 
-.my_skills{
+.my-skills{
     display: flex;
     align-items: center;
     flex-direction: column;
 }
 
-.programming_skills_container{
+.programming-skills-container{
     padding-top: 82px;
     padding-bottom: 110px;
     display: flex;
     justify-content: space-around;
 }
 
-.programming_skills_card{
+.programming-skills-card{
     display: flex;
     align-items: center;
     flex-direction: column;
 }
 
-.programming_skills_name{
+.programming-skills-name{
     padding-top: 24px;
     padding-bottom: 40px;
     text-align: center;
 }
 
-.footer_info_container{
+.footer-info-container{
     background: #F6F6F6;
     display: flex;
     flex-direction: column;
@@ -173,20 +173,20 @@ body{
     min-height: 100%;
 }
 
-.contacts_text_box{
+.contacts-text-box{
     padding-top: 114px;
 }
 
-.contacts_card_box{
+.contacts-card-box{
     padding-top: 80px;
     padding-bottom: 123px;
 }
 
-.my_contacts_box{
+.my-contacts-box{
     padding-right: 40px;
 }
 
-.contacts_icon_box{
+.contacts-icon-box{
     height: 40px;
     width: 40px;
 }
