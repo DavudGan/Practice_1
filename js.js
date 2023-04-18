@@ -1,5 +1,5 @@
 jQuery(document).ready(function($){
-    let currentLanguage = 'en'
+    let currentLanguage = 'ru'
     $('.language-change-button').click(function() {
         for (let key in langArr)
         {
