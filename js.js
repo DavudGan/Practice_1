@@ -3,7 +3,8 @@ jQuery(document).ready(function($){
     $('.language-change-button').click(function() {
         if (currentLanguage === "en"){
             $('.menu-list').css({'gap':'156px'})
-        }else $('.menu-list').css({'gap':'146px'})
+            $('.my-info').css({'gap':'212px'})
+        }else ($('.menu-list').css({'gap':'146px'}), $('.my-info').css({'gap':'226px'}))
         
         for (let key in langArr)
         {
