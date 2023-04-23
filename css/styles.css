@@ -77,12 +77,12 @@ body{
     text-align: left;
 }
 
-.my-development-skill-container{
+.my-development-skill{
     font-size: 18px;
     line-height: 22px;
 }
 
-.my-development-skill {
+.my-development-skill-container{
     display: flex;
     flex-wrap: wrap;
     align-content: space-around;
@@ -130,7 +130,7 @@ body{
     padding-bottom: 20px;
 }
 
-.about-me-text-box-2{
+.about-me-text-header{
     padding-bottom: 18px;
 }
 
