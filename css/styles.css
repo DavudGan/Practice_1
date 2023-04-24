@@ -41,6 +41,14 @@ body{
     font-family: 'Gilroy-Medium';
 }
 
+body[data-lang="ru"] .menu-list{
+    gap: 146px;
+}
+
+body[data-lang="ru"] .my-info{
+    gap: 226px;
+}
+
 .header-inner{
     padding-top: 33px;
     display: flex;
@@ -66,7 +74,7 @@ body{
 .my-info{
     padding-top: 40px;
     display: flex;
-    gap: 211px;
+    gap: 213px;
     text-align: center;
 }
 
@@ -101,6 +109,40 @@ body{
     font-family: 'Gilroy-Bold';
     display: flex;
 }
+
+body[data-lang="en"] .language-change-button p:nth-child(1) {
+    color: #8E8E8E;
+}
+
+body[data-lang="en"] .language-change-button p:nth-child(2) {
+    color:#000000;
+}
+
+body[data-lang="ru"] .language-change-button p:nth-child(1) {
+    color:#000000;
+}
+
+body[data-lang="ru"] .language-change-button p:nth-child(2) {
+    color: #8E8E8E;
+}
+
+/* .text-ru{
+    color: #8E8E8E;
+    margin-right: 2px;
+}
+
+.text-eng{
+    margin-left: 2px;
+}
+
+
+body[data-lang="ru"] .text-ru{
+    color:#000000;
+}
+
+body[data-lang="ru"] .text-eng{
+    color: #8E8E8E;
+} */
 
 .my-photo-container{
     padding-top: 31px;
@@ -189,4 +231,22 @@ body{
 .contacts-icon-box{
     height: 40px;
     width: 40px;
+}
+
+/* маленькие экраны, ноутбуки */
+@media screen and (max-width : 769px) {
+    .header{
+        display: none
+    }
+    
+}
+
+/* планшеты */
+@media screen and (max-width : 481px) {
+    
+}
+
+/* мобильные устройства */
+@media screen and (max-width : 320px) {
+    
 }
