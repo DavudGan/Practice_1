@@ -18,7 +18,6 @@ jQuery(document).ready(function($){
             currentLanguage = "ru"
         }else currentLanguage = "en" 
 
-        // $("body").attr("lang", currentLanguage)
         console.log($("body").attr("lang"))
 
     })
