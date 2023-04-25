@@ -126,24 +126,6 @@ body[data-lang="ru"] .language-change-button p:nth-child(2) {
     color: #8E8E8E;
 }
 
-/* .text-ru{
-    color: #8E8E8E;
-    margin-right: 2px;
-}
-
-.text-eng{
-    margin-left: 2px;
-}
-
-
-body[data-lang="ru"] .text-ru{
-    color:#000000;
-}
-
-body[data-lang="ru"] .text-eng{
-    color: #8E8E8E;
-} */
-
 .my-photo-container{
     padding-top: 31px;
     padding-bottom: 104px;
@@ -233,20 +215,23 @@ body[data-lang="ru"] .text-eng{
     width: 40px;
 }
 
-/* маленькие экраны, ноутбуки */
-@media screen and (max-width : 769px) {
+@media screen and (max-width: 770px) {
+
     .header{
-        display: none
+        display: none;
     }
-    
-}
 
-/* планшеты */
-@media screen and (max-width : 481px) {
-    
-}
+    .my-info{
+        flex-direction: column;
+        gap: 23px;
+    }
 
-/* мобильные устройства */
-@media screen and (max-width : 320px) {
+    body[data-lang="ru"] .my-info{
+        gap: 23px;
+    }
+
+    .language-change-button-container{
+        display: none;
+    }
     
 }
